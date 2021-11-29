@@ -1,0 +1,10 @@
+int a = (rand() % 10) + 1;
+int b = 0;
+
+while (b != a)
+while (b != a) {
+std::cin >> b;
+if (b > a) std::cout << ("太大!\n");
+if (b < a) std::cout << ("太小!\n");
+if (b <= a) break;
+}
